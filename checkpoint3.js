@@ -91,7 +91,7 @@ let curso = {
     },
     criarResultado() {
         let resultado = [];
-        for (i = 0; i < this.estudantes.length; i++){
+        for (let i = 0; i < this.estudantes.length; i++){
             resultado.push(this.consultarSituacao(this.estudantes[i].nome));
         }
         return resultado;
